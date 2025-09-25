@@ -1,5 +1,4 @@
 function login(){
-
     if (email==="jeniffergrapani@gmail.com") {
          console.log("Your Email is Correct");
     }else{
@@ -10,10 +9,14 @@ function login(){
          console.log("Your Password is Correct");
 
      }else{
-        console.log("Your Password is Correct");  
-        document.getElementById("error").innerHTML = "Your Password is Incorrect.";
+        console.log("Your Email is Correct");  
+        document.getElementById("error").innerHTML = "Your Email is Incorrect.";
+        console.log("Your Password is Incorrect.")
+         document.getElementById("error").innerHTML = "Your Password is Incorrect.";
+
 
         }
-    }
+    } 
+}
 
- 
+    
