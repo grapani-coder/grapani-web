@@ -1,4 +1,9 @@
-function login(){
+//Grapani, Jeniffer 1-D
+function signIn(){
+    
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+
     if (email==="jeniffergrapani@gmail.com") {
          console.log("Your Email is Correct");
     }else{
@@ -14,7 +19,7 @@ function login(){
         console.log("Your Password is Incorrect.")
          document.getElementById("error").innerHTML = "Your Password is Incorrect.";
 
-
+        
         }
     } 
 }
